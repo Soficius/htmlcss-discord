@@ -37,10 +37,20 @@ a{
     text-decoration: none;
     color: white;
 }
-/* header */
-main{
-    padding: 1em;
+.imag-small{
+    width: 40%;
 }
+.flex-30{
+    flex:30%
+}
+.flex-50{
+    flex: 50%;
+}
+.flex-70{
+    flex: 70%;
+}
+
+/* header */
 header{
   background-color: rgb(63, 118, 207);
   background-image: url(/img/jumbo.png);
@@ -61,20 +71,20 @@ nav{
 }
 h1{
     margin-bottom: 0;
+    font-size: 2em;
 }
 #barra{
     width: 45%;
-    
 }
 /* main */
 section{
     background-color: white;
-
+    padding: 6em;
 }
-.flex-50{
-    flex: 50%;
+main section .flex-center{
+    text-align: start;
 }
-main section:nth-child(even) {background: rgb(189, 189, 189)}
+main section:nth-child(even) {background: #eee}
 main section:nth-child(odd) {background: #ffffff}
 /* footer */
 footer{
