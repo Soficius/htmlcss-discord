@@ -74,7 +74,7 @@ select{
 /* header */
 header{
   background-color: rgb(63, 118, 207);
-  background-image: url(/img/jumbo.png);
+  background-image: url(../img/jumbo.png);
   background-size: cover;
   color: white;
   padding: 1em;
@@ -111,7 +111,7 @@ main section:nth-child(even) {
 }
 main section:nth-child(odd) {background: #ffffff}
 h3{
-    background: url(/img/stars.svg) no-repeat;
+    background: url(../img/stars.svg) no-repeat;
     padding: 2em;
     margin: 0;
 }
