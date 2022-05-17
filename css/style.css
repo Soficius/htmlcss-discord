@@ -33,9 +33,16 @@ body{
 background-color: black;
 color: white;
 }
+.azure{
+    background-color:#95a6e3;
+    color: white;
+}
 a{
     text-decoration: none;
     color: white;
+}
+.imag-big{
+    width: 90%;
 }
 .imag-small{
     width: 40%;
